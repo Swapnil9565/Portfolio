@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import homePng from '../assets/HomePage.png'
 const Home = ({mode}) => {
   return (
@@ -13,7 +14,7 @@ const Home = ({mode}) => {
         </div>
         <div className="flex justify-center gap-5 mt-10 text-2xl font-medium md:justify-start  md:text-lg md:font-semibold">
           <button className='border-2 border-[#d53ff9] rounded-md text-[#d53ff9] transition-all hover:scale-105'><a className='px-2 py-3' href="/resume.pdf" download="Resume">Download Resume</a></button>
-          <button className='px-3 py-3 md:px-2 md:py-2 rounded-md bg-[#d53ff9] text-white transition-all hover:scale-105'>Contact Me</button>
+          <button className='px-3 py-3 md:px-2 md:py-2 rounded-md bg-[#d53ff9] text-white transition-all hover:scale-105'><Link to="contact">Contact Me</Link></button>
         </div>
        </div>
        <div className={`${mode==="dark"&&"border-8 border-[#d53ff9] shadow-md rounded-full hover:animate-bounce mb-10 md:mb-0"}`}>
