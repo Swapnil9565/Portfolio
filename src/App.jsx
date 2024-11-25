@@ -6,6 +6,7 @@ import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 function App() {
   const [mode, setMode] = useState("light");
 
@@ -22,11 +23,14 @@ function App() {
         <div className='h-[190vh] md:h-screen' id='skills'>
           <Skills mode={mode}/>
         </div>
-        <div className='h-[295vh] md:h-screen' id='projects'>
+        <div className='h-[350vh] md:h-screen' id='projects'>
           <Projects mode={mode}/>
         </div>
-        <div className='h-[190vh]' id='contact'>
+        <div className='h-screen md:h-[50vh]' id='contact'>
           <Contact mode={mode}/>
+        </div>
+        <div>
+          <Footer/>
         </div>
       </div>
     </div>
