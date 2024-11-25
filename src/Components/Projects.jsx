@@ -36,7 +36,7 @@ const Projects = ({ mode }) => {
         </span>
         Projects
       </h1>
-      <div className='w-full flex flex-wrap justify-center items-center gap-10 mt-20'>
+      <div className='w-full flex flex-wrap justify-center items-center gap-32 md:gap-10 mt-20'>
         {myprojects.map(({thumb,name,deployLink, githubLink}) => {
           return (
             <div className='bg-[#f5e1f5] shadow-lg w-4/5 md:w-96 flex flex-col gap-y-10 items-center rounded-md p-5' key={uuidv4()}>
