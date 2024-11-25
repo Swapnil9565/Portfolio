@@ -22,11 +22,11 @@ function App() {
         <div className='h-[190vh] md:h-screen' id='skills'>
           <Skills mode={mode}/>
         </div>
-        <div className='h-screen' id='projects'>
-          <Projects />
+        <div className='h-[295vh] md:h-screen' id='projects'>
+          <Projects mode={mode}/>
         </div>
-        <div className='h-screen' id='contact'>
-          <Contact />
+        <div className='h-[190vh]' id='contact'>
+          <Contact mode={mode}/>
         </div>
       </div>
     </div>
