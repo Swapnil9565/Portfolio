@@ -7,7 +7,7 @@ const About = ({mode}) => {
   return (
     <div className={`${mode==="dark"?"text-white":"text-black"} pt-5 md:pt-10`}>
       <h1 className='text-center font-bold text-[#d53ff9] text-4xl uppercase underline'>
-        About Me
+        About <span className={`${mode=="dark"?"text-white":"text-black"} underline`}>Me</span>
       </h1>
       <div className='flex justify-center flex-wrap gap-20  w-full mt-5'>
         <div className='w-[20rem]'>
