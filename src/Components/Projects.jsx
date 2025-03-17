@@ -1,10 +1,17 @@
 import React from "react";
 import { v4 as uuidv4 } from 'uuid';
+import HospitalThumb from "../assets/HospitalThumb.png"
 import NotesThumb from "../assets/NotesThumb.png";
 import FoodThumb from "../assets/FoodThumb.png";
 import MovieThumb from "../assets/MovieThumb.png";
 const Projects = ({ mode }) => {
   const myprojects = [
+    {
+      thumb: HospitalThumb,
+      name:"MedZone-Hospital Management System (MERN)",
+      deployLink: "https://hospital-management-99yz.onrender.com",
+      githubLink: "https://github.com/Swapnil9565/Hospital_Management",
+    },
     {
       thumb: NotesThumb,
       name:"Pocket Notes App",
@@ -16,13 +23,7 @@ const Projects = ({ mode }) => {
       name:"Food Heaven:Food Recipe Finder",
       deployLink: "https://recipe-finder-mocha-eight.vercel.app",
       githubLink: "https://github.com/Swapnil9565/Recipe_finder",
-    },
-    {
-      thumb: MovieThumb,
-      name:"Movie Streaming App",
-      deployLink: "https://movie-streaming-ruddy.vercel.app",
-      githubLink: "https://github.com/Swapnil9565/Movie-streaming",
-    },
+    }
   ];
   return (
     <div
