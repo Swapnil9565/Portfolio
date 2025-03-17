@@ -1,3 +1,6 @@
+import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faX } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-scroll'
 const Footer = () => {
@@ -23,9 +26,14 @@ const Footer = () => {
         </div>
         <div className="flex flex-col cursor-pointer w-1/4  md:w-auto">
             <h1 className='text-2xl font-bold mb-3'>Social Links</h1>
-            <a href="https://x.com/" target='_blank' className='hover:text-blue-600 hover:underline'>X</a>
+            {/* <a href="https://x.com/" target='_blank' className='hover:text-blue-600 hover:underline'>X</a>
             <a href="https://www.facebook.com/" target='_blank' className='hover:text-blue-600 hover:underline'>Facebook</a>
-            <a href="https://www.instagram.com/" target='_blank' className='hover:text-blue-600 hover:underline'>Instagram</a>
+            <a href="https://www.instagram.com/" target='_blank' className='hover:text-blue-600 hover:underline'>Instagram</a> */}
+            <div className="flex gap-5 items-center w-full justify-between">
+            <a href="https://x.com/Swapnilm_15?t=y9GhczWlc05I_khvcR1Pqg&s=09" target='_blank'  className='hover:text-orange-500'><FontAwesomeIcon icon={faTwitter} size='xl'/></a>
+            <a href="https://www.linkedin.com/in/swapnil-mohite-63b153248/" target='_blank' className='hover:text-orange-500'><FontAwesomeIcon icon={faLinkedin} size='xl'/></a>
+            <a href="https://www.instagram.com/swapnil_m_04" target='_blank' className='hover:text-orange-500'><FontAwesomeIcon icon={faInstagram} size='xl'/></a>
+            </div>
         </div>
     </div>
     <div className="text-center tracking-wide text-gray-400">

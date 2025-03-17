@@ -41,7 +41,7 @@ const Projects = ({ mode }) => {
         {myprojects.map(({thumb,name,deployLink, githubLink}) => {
           return (
             <div className='bg-[#f5e1f5] shadow-lg w-4/5 md:w-96 flex flex-col gap-y-10 items-center rounded-md p-5' key={uuidv4()}>
-              <div className='img'>
+              <div className='img transition-transform hover:scale-105'>
                 <img src={thumb} alt="thumbnail" className="w-full" />
               </div>
               <div className='font-bold text-3xl text-center md:text-justify md:text-xl'>{name}</div>
