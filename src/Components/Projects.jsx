@@ -1,7 +1,7 @@
 import React from "react";
 import { v4 as uuidv4 } from 'uuid';
 import HospitalThumb from "../assets/HospitalThumb.png"
-import jobThumb from "../assets/jobThumb.png"
+import JobThumb from "../assets/JobThumb.png"
 import NotesThumb from "../assets/NotesThumb.png";
 import FoodThumb from "../assets/FoodThumb.png";
 
@@ -15,7 +15,7 @@ const Projects = ({ mode }) => {
       githubLink: "https://github.com/Swapnil9565/Hospital_Management",
     },
     {
-      thumb: jobThumb,
+      thumb: JobThumb,
       name:"Job Finder App (MERN)",
       deployLink: "https://job-finder-app-frontend.onrender.com",
       githubLink: "https://github.com/Swapnil9565/Job_Finder_App",
