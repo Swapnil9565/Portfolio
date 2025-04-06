@@ -23,7 +23,7 @@ function App() {
         <div className='h-[190vh] md:h-screen' id='skills'>
           <Skills mode={mode}/>
         </div>
-        <div className='h-[350vh] md:h-[150vh]' id='projects'>
+        <div className='h-auto md:h-[150vh]' id='projects'>
           <Projects mode={mode}/>
         </div>
         <div className='h-screen md:h-[50vh]' id='contact'>
