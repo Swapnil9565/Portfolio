@@ -22,7 +22,7 @@ const Home = ({ mode }) => {
           </p>
         </div>
         <div className='flex justify-center gap-5 mt-10 text-2xl font-medium md:justify-start  md:text-lg md:font-semibold'>
-          <a href='/Swapnil_Mohite_Resume.pdf' download='Resume'>
+          <a href='/Swapnil_Resume.pdf' download='Resume'>
             <button className='border-2 border-[#d53ff9] rounded-md text-[#d53ff9] transition-all hover:scale-105 px-2 py-3'>
               Download Resume
             </button>
