@@ -6,10 +6,11 @@ const Skills = ({ mode }) => {
     { id: 1, skill: "HTML5", percentage: 95 },
     { id: 2, skill: "CSS3", percentage: 90 },
     { id: 3, skill: "JavaScript", percentage: 70 },
-    { id: 4, skill: "MongoDB", percentage: 65 },
-    { id: 5, skill: "Express", percentage: 70 },
-    { id: 6, skill: "React", percentage: 70 },
-    { id: 7, skill: "Tailwind", percentage: 95 },
+    { id: 4, skill: "Java", percentage: 75 },
+    { id: 5, skill: "MongoDB", percentage: 65 },
+    { id: 6, skill: "Express", percentage: 70 },
+    { id: 7, skill: "React", percentage: 70 },
+    { id: 8, skill: "Tailwind", percentage: 95 },
   ];
 
   return (

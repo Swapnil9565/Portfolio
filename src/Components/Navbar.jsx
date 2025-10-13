@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import myImg from "../assets/MyImg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
@@ -25,11 +24,9 @@ const Navbar = ({ mode, setMode }) => {
       } sticky top-0 z-index-[1000] shadow-md flex justify-between items-center p-5 md:flex md:justify-around`}>
       <div>
         <Link to='home' smooth={true} duration={500} offset={-75}>
-          <img
-            src={myImg}
-            alt=''
-            className='h-[11vh] w-[18vw] md:w-[4vw] md:h-[9vh] rounded-[80%] aspect-square'
-          />
+          <h1 className="font-bold text-xl flex justify-center items-center p-2 md:p-3 rounded-[80%] aspect-square border-2 border-slate-200">
+            S <span className="text-[#d53ff9]">M</span>
+          </h1>
         </Link>
       </div>
       <div>

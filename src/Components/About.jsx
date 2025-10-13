@@ -1,5 +1,5 @@
-import React from "react";
-import aboutImg from "../assets/AboutPage.png";
+
+import aboutImg from "../assets/AboutPage.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuildingColumns } from "@fortawesome/free-solid-svg-icons/faBuildingColumns";
 import certify from "../assets/Certify.png";
