@@ -11,13 +11,13 @@ const Projects = ({ mode }) => {
     {
       thumb: HospitalThumb,
       name:"MedZone-Hospital Management System (MERN)",
-      deployLink: "https://hospital-management-99yz.onrender.com",
+      deployLink: "https://hospital-management-0oww.onrender.com",
       githubLink: "https://github.com/Swapnil9565/Hospital_Management",
     },
     {
       thumb: JobThumb,
       name:"Job Finder App (MERN)",
-      deployLink: "https://job-finder-app-frontend.onrender.com",
+      deployLink: "https://job-finder-app-puce.vercel.app/",
       githubLink: "https://github.com/Swapnil9565/Job_Finder_App",
     },
     {
